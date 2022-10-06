@@ -16,13 +16,13 @@ var query = require('samp-query');
 //@audit Settings
 
 const botChar = "/"; // Bot prefix character
-let Samp_IP = "51.178.138.254";
-let Samp_Port = 7777;
-let Community_Tag ="WG";
+let Samp_IP = "23.88.73.88:12128";
+let Samp_Port = 12128;
+let Community_Tag ="I:RP";
 
-let userToSubmitApplicationsTo = '710195458680684695';//Default Channel Id for User Applications
-let reportChannelID = '714432112031170562'; // Channel for the ingam reports
-let adminCmdsChannelID = '710195250911641741'; // Admin Cmds channel
+let userToSubmitApplicationsTo = '1018896852445306984';//Default Channel Id for User Applications
+let reportChannelID = '1025692642215997440'; // Channel for the ingam reports
+let adminCmdsChannelID = '1022126555180310558'; // Admin Cmds channel
 let Bot_debug_mode = false;
 
 //_______________________________[APPLICATIONS]______________________________________________
@@ -34,10 +34,10 @@ let isSettingFormUp = false;
 //______________________________[SAMP Server MySQL Connection]________________________________
 const mysql = require("mysql");
 var db = mysql.createConnection({
-    host: process.env.SQL_HOST,
-    user: process.env.SQL_USER,
-    password: process.env.SQL_PASS,
-    database: process.env.SQL_DB,
+    host: process.env.SQL_23.88.73.88,
+    user: process.env.SQL_u1071371_OD6XoiSpQo,
+    password: process.env.SQL_K3!Hg1J.D8r8!gNao0RT=jr1,
+    database: process.env.SQL_s1071371_my-db1662886541,
 });
 
 
